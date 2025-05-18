@@ -1,0 +1,17 @@
+[package]
+name = "blockpiper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.5"
+egui = "0.27"
+eframe = "0.27"
+rfd = "0.12"
+bytemuck = "1.14"
+encase = "0.5"
+constriction = "0.3"
+
+[[bin]]
+name = "blockpiper"
+path = "src/main.rs"
